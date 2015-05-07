@@ -1,0 +1,16 @@
+package com.arithmetic.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.arithmetic.service.CalculatorService;
+
+@Service
+public class CalculatorServiceImpl implements CalculatorService {
+
+	public Float sum(Float num1, Float num2) {
+		
+		return num1 + num2;
+	}
+
+}

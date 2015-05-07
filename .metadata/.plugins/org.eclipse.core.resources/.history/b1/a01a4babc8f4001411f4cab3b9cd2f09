@@ -1,0 +1,19 @@
+package com.arithmetic.test.app;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import com.arithmetic.app.CalculatorApplication;
+
+public class DependencyInjection {
+
+	public static void main(String[] args) {
+		//ApplicationContext appContext = new FileSystemXmlApplicationContext("xml/spring-context.xml");
+		ApplicationContext appContext = new AnnotationConfigApplicationContext();
+		BeanFactory factory = appContext;
+		CalculatorApplication calculatorApplication = (CalculatorApplication) factory.getBean(CalculatorApplication.class);
+		System.out.println(calculatorApplication.addNumbers(5.17f, 4.72f));
+	}
+}

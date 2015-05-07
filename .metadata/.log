@@ -1665,3 +1665,45 @@ Caused by: java.io.IOException: The process cannot access the file because anoth
 	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:512)
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:184)
 	... 7 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-07 19:49:21.723
+!MESSAGE Failed to load properties file for project 'SpringDependencyInjectionAnnotation'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 19:49:49.518
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 19:56:31.847
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 19:56:42.393
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 19:56:48.164
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 19:56:56.045
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 19:57:01.713
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 19:57:08.540
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 19:57:13.171
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 20:14:50.911
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 20:18:00.994
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 20:18:13.410
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 20:28:10.366
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 20:28:48.329
+!MESSAGE No projects found for [D:\dev\SpringDI\SpringDependencyInjectionAnnotation\xml\spring-context.xml]
