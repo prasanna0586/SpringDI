@@ -1,0 +1,13 @@
+package com.arithmetic.app;
+
+import com.arithmetic.service.CalculatorService;
+
+public class CalculatorApplication {
+	
+	private CalculatorService calculatorService;
+
+	public void setCalculatorService(CalculatorService calculatorService) {
+		this.calculatorService = calculatorService;
+	}
+	
+}

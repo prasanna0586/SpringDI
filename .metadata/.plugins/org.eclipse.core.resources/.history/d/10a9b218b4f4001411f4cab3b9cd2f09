@@ -1,0 +1,6 @@
+package com.arithmetic.app;
+
+public class CalculatorApplication {
+	
+	CalculatorService calculatorService;
+}

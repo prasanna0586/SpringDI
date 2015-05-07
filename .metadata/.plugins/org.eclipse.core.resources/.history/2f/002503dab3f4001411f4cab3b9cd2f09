@@ -1,0 +1,8 @@
+package com.arithmetic.util;
+
+public class CalculatorUtil {
+	
+	public Float addTwoNumbers (Float a, Float b) {
+		return a+b;
+	}
+}

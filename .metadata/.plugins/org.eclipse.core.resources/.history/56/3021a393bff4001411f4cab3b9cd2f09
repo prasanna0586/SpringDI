@@ -1,0 +1,26 @@
+package com.arithmetic.app;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+import com.arithmetic.service.CalculatorService;
+
+@Configuration
+public class CalculatorApplication {
+	
+	private CalculatorService calculatorService;
+	
+	@Autowired
+	public void setCalculatorService(CalculatorService calculatorService) {
+		this.calculatorService = calculatorService;
+	}
+	
+	@Bean
+	public Float addNumbers(Float a, Float b) {
+		return calculatorService.sum(a, b);
+	}
+	
+}

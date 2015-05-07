@@ -1,0 +1,11 @@
+package com.arithmetic.app;
+
+public class CalculatorApplication {
+	
+	private CalculatorService calculatorService;
+
+	public void setCalculatorService(CalculatorService calculatorService) {
+		this.calculatorService = calculatorService;
+	}
+	
+}

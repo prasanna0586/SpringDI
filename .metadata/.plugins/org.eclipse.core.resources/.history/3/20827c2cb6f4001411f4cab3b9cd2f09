@@ -1,0 +1,10 @@
+package com.arithmetic.test.app;
+
+public class DependencyInjection {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

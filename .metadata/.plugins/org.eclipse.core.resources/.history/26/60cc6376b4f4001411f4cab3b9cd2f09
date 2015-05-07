@@ -1,0 +1,16 @@
+package com.arithmetic.app;
+
+import javax.xml.ws.ServiceMode;
+
+import com.arithmetic.service.CalculatorService;
+
+@Service
+public class CalculatorApplication {
+	
+	private CalculatorService calculatorService;
+
+	public void setCalculatorService(CalculatorService calculatorService) {
+		this.calculatorService = calculatorService;
+	}
+	
+}

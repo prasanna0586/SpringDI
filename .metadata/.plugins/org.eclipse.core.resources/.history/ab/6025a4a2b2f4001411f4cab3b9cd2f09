@@ -1,0 +1,5 @@
+package com.arithmetic.service;
+
+public interface CalculatorService {
+
+}
